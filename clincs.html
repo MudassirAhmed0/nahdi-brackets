@@ -159,6 +159,12 @@
 
     <!-- hero section -->
     <section class="hero-second d-flex flex-column justify-content-center mainBanner">
+      <span class="myOverlay clincsOverlay">
+
+        <img src="https://nap-brackets.vercel.app/brandIcon.svg" alt="">
+
+      </span>
+
       <div class="heroImage-second clinc"></div>
       <div class="myContainer">
         <div class="myBreadCrumb">
@@ -200,7 +206,7 @@
           </div>
         </div>
         <div class="sdeb">
-          <div class="img-sd-day">
+          <div class="img-sd-day play"  >
             <!-- <div
               class="overflow-hidden video-block video-butn video-img2 fancybox-vid w-full block relative cursor-pointer"
               data-type="iframe"
@@ -216,16 +222,16 @@
                 src="https://luberefapp.s3.eu-central-1.amazonaws.com/dist/img/play.svg"
               />
             </div> -->
-            <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/beats-everyday-thumbnail.png" alt="" />
+            <img data-value="0"  src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/beats-everyday-thumbnail.png" alt="" />
           </div>
         </div>
       </div>
     </section>
     <section class="add-Bet-Evrd Healthcare">
       <div class="main-add-Bet-d">
-        <div class="sdeb">
-          <div class="img-sd-day">
-            <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/clinic-second-image.jpg" alt="" />
+        <div class="sdeb" >
+          <div class="img-sd-day play"   >
+            <img data-value="1" src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/clinic-second-image.jpg" alt="" />
           </div>
         </div>
         <div class="sdea">
@@ -544,8 +550,31 @@
         </div>
       </div>
     </section>
+ <!-- IFRAME 1 -->
+    <section id="videoPopup" class="videoPopup" >
+      <span id="videoOverlay" >
 
+      </span>
+      <img id="videoCloser" class="videoCloser" src="https://shushah-brackets.vercel.app/assets/images/svgs/close.svg" alt="Close" >
+      <div>
+        <iframe  src="https://player.vimeo.com/video/753530667?autoplay=1&amp;background=0&amp;title=1&amp;byline=1&amp;badge=false&amp;autopause=false&amp;portrait=1&amp;controls=1&amp;loop=0&amp;muted=1#t=0s" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+
+      </div>
+    </section>
+ <!-- IFRAME 2-->
+
+    <section id="videoPopup" class="videoPopup" >
+      <span id="videoOverlay" >
+
+      </span>
+      <img id="videoCloser" class="videoCloser" src="https://shushah-brackets.vercel.app/assets/images/svgs/close.svg" alt="Close" >
+      <div>
+        <iframe  src="https://player.vimeo.com/video/753530667?autoplay=1&amp;background=0&amp;title=1&amp;byline=1&amp;badge=false&amp;autopause=false&amp;portrait=1&amp;controls=1&amp;loop=0&amp;muted=1#t=0s" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+
+      </div>
+    </section>
     <script src="dist/js/lib.min.js"></script>
     <script src="dist/js/core.min.js"></script>
+  
   </body>
 </html>
