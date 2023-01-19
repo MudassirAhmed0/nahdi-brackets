@@ -148,15 +148,16 @@
         </span>
         <div class="heroImage"></div>
         <div class="myContainer">
-          <div class="hero_text_header">
+          <div class="hero_text_header  fade-init fade delay-1">
             <p>Since 1986</p>
           </div>
-          <h1>Many hearts, one pulse <span> What’s your beat? </span></h1>
-          <p class="myBigTxt">
+          <h1 class="fade-init fade-up
+          ">Many hearts, one pulse <span> What’s your beat? </span></h1>
+          <p class="myBigTxt fade-init fade-down">
             Heart is at the center of everything we do - it represents our community, passion, and dedication to health
             to shape a better world, a better community, and a better you
           </p>
-          <a href="index.html" class="discover-link"
+          <a href="index.html" class="discover-link fade-init fade delay-2"
             >Discover Jobs
             <svg xmlns="http://www.w3.org/2000/svg" width="7.279" height="12.731" viewBox="0 0 7.279 12.731">
               <path
@@ -173,6 +174,45 @@
        
       </section>
     </div>
+
+    <section class="search">
+      <div class="container">
+        <div class="jobs-location">
+          <div class="find-jobs">
+            <span>Find jobs</span>
+            <input type="text" name="" id="" placeholder="Search title, skill, keyword">
+          </div>
+          <div class="locations">
+            <span>My location
+               <div class="chevronloaction">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.015" height="9.728" viewBox="0 0 17.015 9.728">
+                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down"
+                    d="M14.7,18.042,21.131,11.6a1.211,1.211,0,0,1,1.717,0,1.226,1.226,0,0,1,0,1.722l-7.29,7.295a1.214,1.214,0,0,1-1.677.035l-7.34-7.325a1.216,1.216,0,1,1,1.717-1.722Z"
+                    transform="translate(-6.188 -11.246)" fill="#262626" />
+                </svg>
+              </div>
+    
+              <ul class="loacation-dropdown">
+                <li><span>location 1</span></li>
+                <li><span>location 2</span></li>
+                <li><span>location 3</span></li>
+              </ul>
+            </span>
+            <input type="text" name="" id="location-input" placeholder="City, state, country">
+    
+          </div>
+        </div>
+      
+        <div class="search-btn">
+          <a href=""><div>
+            <svg xmlns="http://www.w3.org/2000/svg" id="Group_9" data-name="Group 9" width="31.87" height="31.87" viewBox="0 0 31.87 31.87">
+              <path id="Icon_material-search" data-name="Icon material-search" d="M27.278,24.544h-1.44l-.51-.492a11.862,11.862,0,1,0-1.276,1.276l.492.51v1.44l9.111,9.093,2.715-2.715Zm-10.933,0a8.2,8.2,0,1,1,8.2-8.2A8.189,8.189,0,0,1,16.344,24.544Z" transform="translate(-4.5 -4.5)" fill="#2361aa"/>
+            </svg>
+          </div></a>
+        </div>
+      </div>
+  
+    </section>
 
     <section class="my-Owl-Carosel">
       <div class="sec-bg-img">
@@ -208,12 +248,13 @@
       <div class="main-container">
         <div class="cntent">
           <div class="cntent-main">
-            <h1>Create the future you want</h1>
+            <h1 id="rect" class="fade-up myoc">Create the future you want</h1>
+
           </div>
         </div>
         <div class="carosel-owl">
-          <div class="owl-carousel owl-theme first-s carosel-owl-main meraCarousel">
-            <div class="future-slider-item">
+          <div class="owl-carousel owl-theme myocc first-s carosel-owl-main meraCarousel">
+            <div class="future-slider-item fade ">
               <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/pharmacy-icon.svg" />
               <div class="owl-slid-cntent">
                 <h3>Pharmacy</h3>
@@ -225,7 +266,7 @@
 
               <a href="http://">Read More</a>
             </div>
-            <div class="future-slider-item">
+            <div class="future-slider-item fade delay-1">
               <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/corporate-icon.svg" />
               <div class="owl-slid-cntent">
                 <h3>Corporate</h3>
@@ -237,7 +278,7 @@
 
               <a href="http://">Read More</a>
             </div>
-            <div class="future-slider-item">
+            <div class="future-slider-item fade delay-2">
               <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/nahdicare-icon.svg" />
               <div class="owl-slid-cntent">
                 <h3>NahdiCare Clinics</h3>
@@ -249,7 +290,7 @@
 
               <a href="http://">Read More</a>
             </div>
-            <div class="future-slider-item">
+            <div class="future-slider-item fade delay-3">
               <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/early-icon.svg" />
 
               <div class="owl-slid-cntent">
@@ -263,7 +304,7 @@
               <a href="http://">Read More</a>
             </div>
           </div>
-          <a href="#" class="main-cta-btn"> view all jobs </a>
+          <a href="#" class="main-cta-btn fade"> view all jobs </a>
         </div>
       </div>
     </section>
@@ -274,8 +315,8 @@
           <div class="Box1">
             <img src="https://nap-brackets.vercel.app/brandIcon.svg" alt="" class="box1-bg-imgg" />
             <div class="Box1-Main">
-              <h2>Everything comes from the heart</h2>
-              <div class="Box1-Main-cntnt">
+              <h2 id="rect" class="fade-up">Everything comes from the heart</h2>
+              <div class="Box1-Main-cntnt fade-down">
                 <p>
                   People are at the heart of everything we do. Our unique teams are made up of passionate people who
                   work harmoniously toward a sole purpose, to add beats to our Guest’s life.
@@ -305,45 +346,45 @@
 
     <section class="fourth">
       <div class="cntnet-fourth">
-        <h1>Perks and benefits</h1>
+        <h1 id="rect" class="fade-up">Perks and benefits</h1>
       </div>
 
       <div class="main-baxes">
-        <div class="bxe">
+        <div class="bxe  fade">
           <h3>Financial Benefits</h3>
           <p>
             High performance, higher rewards! Give us your best and you’ll receive a competitive financial package that
             drives your career progress
           </p>
         </div>
-        <div class="bxe">
+        <div class="bxe  fade delay-1">
           <h3 class="blue">Leaning & Development</h3>
           <p>
             Learning never stops! Through Nahdi's Learning Academies, we ensure you have the skills needed for thefuture
           </p>
         </div>
-        <div class="bxe">
+        <div class="bxe  fade delay-2">
           <h3 class="MyPinky">Passionate About Fun</h3>
           <p>
             It’s not just about the work you do, but how you do it! Weoffer paid time off and holidays for everyone to
             unwind, and a team bonding budget to create stronger teams
           </p>
         </div>
-        <div class="bxe">
+        <div class="bxe  fade">
           <h3 class="mDardBlue">Your Wellness Matters</h3>
           <p>
             We provide medical insurance that covers you and your family, and an exclusive discount on NahdiCare Clinic
             when you need an extra care
           </p>
         </div>
-        <div class="bxe">
+        <div class="bxe  fade delay-1">
           <h3 class="myEllo">Your Family First</h3>
           <p>
             Because we care about your little ones, we offer schooling for kids, and a nursery on the premises to help
             our working mothers take care of their kids
           </p>
         </div>
-        <div class="bxe">
+        <div class="bxe  fade delay-2">
           <h3>Our Discount Program</h3>
           <p>
             We also offer an Employee Discount Program through the Nahdawi app that covers a wide range of products and
@@ -355,32 +396,32 @@
     <section class="Fifth">
       <div class="main-Fifith">
         <div class="hDing">
-          <h1>Celebrating our wins</h1>
+          <h1 id="rect" class="fade-up myptnrs">Celebrating our wins</h1>
         </div>
-        <div class="our-wins-carousel owl-carousel owl-theme">
-          <div class="our-wins-item">
+        <div class="our-wins-carousel myptnrss owl-carousel owl-theme">
+          <div class="our-wins-item fade ">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners1.svg" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-1">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners2.svg" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-2">
             <img src="https://nap-vercel-com.vercel.app/zinda.png" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-3">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners3.png" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-4">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners1.svg" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-5">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners2.svg" />
           </div>
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-6">
             <img src="https://nap-vercel-com.vercel.app/zinda.png" />
           </div>
 
-          <div class="our-wins-item">
+          <div class="our-wins-item fade delay-7">
             <img src="https://nahdi-test-os.s3.eu-central-1.amazonaws.com/images/winners3.png" />
           </div>
         </div>
